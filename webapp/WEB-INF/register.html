@@ -16,26 +16,28 @@
     <link href="../../resources/static/assets/css/material-kit.css?v=2.0.3" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="../../resources/static/assets/demo/demo.css" rel="stylesheet" />
-    
+
     <script type="text/javascript">
-        window.onload=function() {
-            document.getElementById('form-register').onsubmit=function() {
-                var user_pw = document.getElementById("user_pw").value;
-                var user_pw2 = document.getElementById("user_pw2").value;
-                
-                if(user_pw == user_pw2) {
-                    alert ("성공");
-                } else {
-                    alert("다시 입력");
-                    return false;
+        window.onload = function() {
+                document.getElementById('form-register').onsubmit = function() {
+                    var user_pw = document.getElementById("user_pw").value;
+                    var user_pw2 = document.getElementById("user_pw2").value;
+
+                    if (user_pw == user_pw2) {
+                        alert("성공");
+                    } else {
+                        alert("다시 입력");
+                        return false;
+                    }
                 }
-        }
+                
+
     </script>
 
 </head>
 
 <body class="signup-page sidebar-collapse">
-   <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionNav">
+    <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionNav">
         <div class="container">
             <div class="navbar-translate">
                 <h3 style="font-family: VERDANA; font-weight:bold; letter-spacing:1.3px;"><span style="color:#9c27b0;">W</span>ATCHERS</h3>
@@ -72,7 +74,7 @@
             </div>
         </div>
     </nav>
-    
+
     <div class="page-header header-filter" filter-color="purple" style="background-image: url('../../resources/static/assets/img/bg.jpg')">
         <div class="container">
             <div class="row">
@@ -126,6 +128,7 @@
                           </span>
                                                 </div>
                                                 <input type="text" class="form-control" placeholder="아이디" id="user_id" name="user_id" required/>
+                                                <a  href="javascript:id_check()" style="margin-top:6px;"> ID 중복 검사 </a>
                                             </div>
                                         </div>
 

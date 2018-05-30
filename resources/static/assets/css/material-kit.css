@@ -10971,6 +10971,7 @@ a .material-icons {
     vertical-align: middle;
 }
 
+
 .main {
     background: #FFFFFF;
     position: relative;
@@ -14683,6 +14684,7 @@ html * {
 #contact-page h2 {
     font-family: 배달의민족 도현;
 }
+
 #contact-page .contact-form .form-group label {
     color: #4E4E4E;
     font-size: 14px;
@@ -17038,9 +17040,9 @@ footer .pull-center {
     cursor: not-allowed;
 }
 
-.gachonlogo img{
+.gachonlogo img {
     height: 100px;
-    margin-right:auto;
+    margin-right: auto;
     margin-left: auto;
     margin-bottom: 70px;
 }
