@@ -10762,6 +10762,14 @@ fieldset[disabled][disabled] .btn-group-raised .btn,
     border-radius: 30px;
 }
 
+span.gRight {
+    float: right;
+}
+
+span.gLeft {
+    float: left;
+}
+
 .btn.btn-fab,
 .btn.btn-just-icon {
     font-size: 24px;
@@ -17361,7 +17369,7 @@ footer .pull-center {
 }
 
 .section {
-    padding: 70px 0;
+    padding: 50px 0;
 }
 
 .profile-page .page-header {
